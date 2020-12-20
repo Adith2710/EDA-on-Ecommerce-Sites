@@ -1,8 +1,11 @@
 # EDA-on-Ecommerce-Sites
-Using BeautifulSoup to scrape data from Walmart Beautiful Soup is a Python package for parsing HTML and XML documents.
+Here, we scrape data from Walmart and conduct an EDA on it
 
-In this you can learn extracting data from websites using BeautifulSoup from bs4 python package.
+The data we are collecting are on the watches sold in Walmart.
 
-We scrape some basic attributes from products from walmart
+We use BeautifulSoup to scrape data from the site's search page. Then we also collect all the product reviews on each watches as well
 
-Web_Scraping_Walmart.ipynb has the code Walmart_Watches.csv has the final csv of the reviews
+Watches_info.csv- Contains information on the products found on the search page
+Watches_reviews.csv- Contains all the reviews of the products taken from the search page
+
+Walmart_Watches_EDA.ipynb- Notebook on how the data was scraped and collected along with eda conducted on them
